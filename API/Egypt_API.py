@@ -47,7 +47,7 @@ def print():
     return {'hello':'world'}
 
 #   uvicorn Egypt_API:app --reload
- 
+# this running for just local testing not deployment .......
 if __name__ == "__main__":
     uvicorn.run(app, host="127.0.0.1", port=8000)
 
